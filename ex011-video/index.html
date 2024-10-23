@@ -9,9 +9,9 @@
 <body>
     <h1>Testando vídeos</h1>
         <p>Confira o Thiago Torresmo</p>
-            <video src="midia/WhatsApp Video 2024-10-03 at 22.27.35_326cf809.mp4" width="200px" controls></video> <!-- De maneira rapida e simples, mas caso o navegador não seja compativel com mp4, usamos: -->
+            <video src="midia/WhatsApp Video 2024-10-03 at 22.27.35_326cf809.mp4" width="200px" controls loop></video> <!-- De maneira rapida e simples, mas caso o navegador não seja compativel com mp4, usamos: -->
             <!--
-             <video controls>
+             <video width poster controls loop>
                 <source src="nome-do-video.mp4" type="video/mp4">
                 <source src="nome-do-video.m4v" type="video/m4v">
                 <source src="nome-do-video.ogv" type="video/ogv">
@@ -19,5 +19,7 @@
              </video>
             -->
              <!-- Colocar na ordem do video mais leve até o mais pesado, para o site carregar mais rápido. Ele vai testar linha por linha até achar o fomato aceito pelo navegador. -->
+        <p>Vídeos externos:</p> <!-- Só pedir para o site incorporar quando clicar em compartilhar e colar no código. -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QrpltPjbJ_w?si=Lo0Ip1Ke58nZnj-h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </body>
 </html>
