@@ -23,20 +23,35 @@
                 - truetype-aat (Apple Advanced Typography)
                 - svg
             */
-        
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
         h1 {
             font-family: 'Darkcastle', 'Times New Roman', serif;
             font-weight: bolder;
+            font-size: 3em;
+            text-align: center;
         }
 
         h2 {
             font-family: 'Love Larry', 'Times New Roman', monospace;
-            font-size: 1em;
+            font-size: 1.5em;
+            text-align: right;
+        }
+
+        h3 {
+            font-family: 'Love Larry', 'Times New Roman', monospace;
+            font-size: 1.5em;
+            text-align: left;
         }
 
         p {
             font-family: 'Bai Jamjuree', sans-serif;
             text-align: justify;
+            text-indent: 18px;
         }
 
     </style>
@@ -44,7 +59,7 @@
 <body>
     <main>
         <h1>Testando</h1>
-            <h2>Teste do Teste</h2>
+            <div class="container"><h2>Teste do Teste</h2><h3>Chupa</h3></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, non asperiores eveniet neque quod excepturi, unde voluptate voluptatum deserunt modi quisquam amet fugiat sunt earum odit quidem ipsum nihil? At! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem placeat porro perspiciatis in enim optio quis unde maiores quaerat, magni corporis saepe debitis est, a explicabo dolores vitae rem voluptatibus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore autem at totam perferendis unde minima atque, dicta magnam numquam suscipit distinctio nam, obcaecati laborum! Labore aliquam facere distinctio cum cupiditate.</p>
     </main>
 </body>
