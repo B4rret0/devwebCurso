@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        @font-face {
+            font-family: 'Darkcastle';
+            src: url('fonts/Darkcastle.otf') format('opentype'); 
+        }
+        @font-face {
+            font-family: 'Love Larry';
+            src: url('fonts/love\ larry.ttf') format('truetype');
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        
+        h1 {
+            font-family: 'Darkcastle', 'Times New Roman', serif;
+            font-weight: bolder;
+        }
+
+        h2 {
+            font-family: 'Love Larry', 'Times New Roman', monospace;
+            font-size: 1em;
+        }
+
+        p {
+            font-family: 'Bai Jamjuree', sans-serif;
+            text-align: justify;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando</h1>
+            <h2>Teste do Teste</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, non asperiores eveniet neque quod excepturi, unde voluptate voluptatum deserunt modi quisquam amet fugiat sunt earum odit quidem ipsum nihil? At! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem placeat porro perspiciatis in enim optio quis unde maiores quaerat, magni corporis saepe debitis est, a explicabo dolores vitae rem voluptatibus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore autem at totam perferendis unde minima atque, dicta magnam numquam suscipit distinctio nam, obcaecati laborum! Labore aliquam facere distinctio cum cupiditate.</p>
+    </main>
+</body>
+</html>
